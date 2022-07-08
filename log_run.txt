@@ -1,0 +1,40 @@
+10:48:10,976 [main] INFO   jTPCC : Term-00, 
+10:48:10,979 [main] INFO   jTPCC : Term-00, +-------------------------------------------------------------+
+10:48:10,979 [main] INFO   jTPCC : Term-00,      BenchmarkSQL v5.0
+10:48:10,979 [main] INFO   jTPCC : Term-00, +-------------------------------------------------------------+
+10:48:10,979 [main] INFO   jTPCC : Term-00,  (c) 2003, Raul Barbosa
+10:48:10,979 [main] INFO   jTPCC : Term-00,  (c) 2004-2016, Denis Lussier
+10:48:10,981 [main] INFO   jTPCC : Term-00,  (c) 2016, Jan Wieck
+10:48:10,981 [main] INFO   jTPCC : Term-00, +-------------------------------------------------------------+
+10:48:10,981 [main] INFO   jTPCC : Term-00, 
+10:48:10,991 [main] INFO   jTPCC : Term-00, db=postgres
+10:48:10,991 [main] INFO   jTPCC : Term-00, driver=org.postgresql.Driver
+10:48:10,992 [main] INFO   jTPCC : Term-00, conn=jdbc:postgresql://172.17.236.49:15432/tpccdb
+10:48:10,992 [main] INFO   jTPCC : Term-00, user=tpcc
+10:48:10,992 [main] INFO   jTPCC : Term-00, 
+10:48:10,992 [main] INFO   jTPCC : Term-00, warehouses=10
+10:48:10,992 [main] INFO   jTPCC : Term-00, terminals=10
+10:48:10,996 [main] INFO   jTPCC : Term-00, runTxnsPerTerminal=10
+10:48:10,996 [main] INFO   jTPCC : Term-00, limitTxnsPerMin=300
+10:48:10,997 [main] INFO   jTPCC : Term-00, terminalWarehouseFixed=true
+10:48:10,997 [main] INFO   jTPCC : Term-00, 
+10:48:10,997 [main] INFO   jTPCC : Term-00, newOrderWeight=45
+10:48:10,997 [main] INFO   jTPCC : Term-00, paymentWeight=43
+10:48:10,997 [main] INFO   jTPCC : Term-00, orderStatusWeight=4
+10:48:10,997 [main] INFO   jTPCC : Term-00, deliveryWeight=4
+10:48:10,997 [main] INFO   jTPCC : Term-00, stockLevelWeight=4
+10:48:10,997 [main] INFO   jTPCC : Term-00, 
+10:48:10,997 [main] INFO   jTPCC : Term-00, resultDirectory=null
+10:48:10,998 [main] INFO   jTPCC : Term-00, osCollectorScript=null
+10:48:10,998 [main] INFO   jTPCC : Term-00, 
+10:48:11,149 [main] INFO   jTPCC : Term-00, C value for C_LAST during load: 30
+10:48:11,149 [main] INFO   jTPCC : Term-00, C value for C_LAST this run:    136
+10:48:11,149 [main] INFO   jTPCC : Term-00, 
+Term-00, Running Average tpmTOTAL: 0.00    Current tpmTOTAL: 0    Memory Usage: 14MB / 506MB          Term-00, Running Average tpmTOTAL: 30000.00    Current tpmTOTAL: 12    Memory Usage: 25MB / 506MB          Term-00, Running Average tpmTOTAL: 357.14    Current tpmTOTAL: 144    Memory Usage: 18MB / 506MB          Term-00, Running Average tpmTOTAL: 386.71    Current tpmTOTAL: 72    Memory Usage: 18MB / 506MB          Term-00, Running Average tpmTOTAL: 328.93    Current tpmTOTAL: 180    Memory Usage: 18MB / 506MB          Term-00, Running Average tpmTOTAL: 343.79    Current tpmTOTAL: 120    Memory Usage: 19MB / 506MB          Term-00, Running Average tpmTOTAL: 319.20    Current tpmTOTAL: 228    Memory Usage: 19MB / 506MB          Term-00, Running Average tpmTOTAL: 329.12    Current tpmTOTAL: 168    Memory Usage: 19MB / 506MB          Term-00, Running Average tpmTOTAL: 314.41    Current tpmTOTAL: 300    Memory Usage: 19MB / 506MB          Term-00, Running Average tpmTOTAL: 336.82    Current tpmTOTAL: 252    Memory Usage: 20MB / 506MB          Term-00, Running Average tpmTOTAL: 311.59    Current tpmTOTAL: 336    Memory Usage: 21MB / 506MB          Term-00, Running Average tpmTOTAL: 317.46    Current tpmTOTAL: 300    Memory Usage: 21MB / 506MB          Term-00, Running Average tpmTOTAL: 309.58    Current tpmTOTAL: 408    Memory Usage: 21MB / 506MB          Term-00, Running Average tpmTOTAL: 314.55    Current tpmTOTAL: 336    Memory Usage: 21MB / 506MB          Term-00, Running Average tpmTOTAL: 308.24    Current tpmTOTAL: 456    Memory Usage: 21MB / 506MB          Term-00, Running Average tpmTOTAL: 325.34    Current tpmTOTAL: 444    Memory Usage: 21MB / 506MB          Term-00, Running Average tpmTOTAL: 307.23    Current tpmTOTAL: 516    Memory Usage: 23MB / 506MB          Term-00, Running Average tpmTOTAL: 310.95    Current tpmTOTAL: 480    Memory Usage: 23MB / 506MB          Term-00, Running Average tpmTOTAL: 306.39    Current tpmTOTAL: 600    Memory Usage: 23MB / 506MB          Term-00, Running Average tpmTOTAL: 313.03    Current tpmTOTAL: 528    Memory Usage: 23MB / 506MB          
+10:48:31,381 [Thread-5] INFO   jTPCC : Term-00, 
+10:48:31,383 [Thread-5] INFO   jTPCC : Term-00, 
+10:48:31,385 [Thread-5] INFO   jTPCC : Term-00, Measured tpmC (NewOrders) = 161.76
+10:48:31,386 [Thread-5] INFO   jTPCC : Term-00, Measured tpmTOTAL = 302.56
+10:48:31,386 [Thread-5] INFO   jTPCC : Term-00, Session Start     = 2022-07-08 10:48:11
+10:48:31,387 [Thread-5] INFO   jTPCC : Term-00, Session End       = 2022-07-08 10:48:31
+10:48:31,387 [Thread-5] INFO   jTPCC : Term-00, Transaction Count = 100
